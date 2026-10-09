@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+body {
+    background-color: crimson;
+}
+
+h1::first-letter {
+    color: chartreuse;
+}
+
+h1 {
+    color: black;
+    text-shadow: 2px 2px 2px #1e293b;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.cardapio {
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.cardapio:hover {
+    background-color: #76c776; 
+    color: #ffffff;
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cardapio:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container.d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem !important; 
+    transition: all 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 5px 5px 5px black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.dt1{
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.dt2{
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.dt3{
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.dt4{
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.dt5{
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.dt6{
+    background-color: #90ee90; 
+    color: #333333;            
+    border: 2px solid #76c776; 
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    border-radius: 8px;        
+    cursor: pointer;           
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.imagem:hover{
+    width: 360px;
+    transition: all 0.3s ease;
+}
+
+.texto-piscante{
+    animation-name: card;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes card{
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
