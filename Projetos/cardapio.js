@@ -99,12 +99,12 @@ async function carregarCardapio() {
     if (produtos && produtos.length > 0) {
       desenharCards(produtos);
     } else {
-      desenharCards(PRODUTOS_PIZZA4ME);
+      //desenharCards(PRODUTOS_PIZZA4ME);
     }
   } catch (erro) {
     console.warn("Instabilidade/CORS na API externa. Carregando cardápio...", erro);
     // Em caso de bloqueio por CORS ou erro de rede, renderiza os cards
-    desenharCards(PRODUTOS_PIZZA4ME);
+    //desenharCards(PRODUTOS_PIZZA4ME);
   }
 }
 
